@@ -1,0 +1,23 @@
+currency:
+  material: DIAMOND
+  name: "Алмазов"
+
+sign:
+  line1: "&a[Магазин] &f%owner%"
+  line2: "&e%item% x%amount%"
+  line3: "&6Цена: &e%price% %currency%"
+  line4: ""
+
+messages:
+  prefix: "&a[Магазин]&r "
+  created: "&aМагазин создан! Цена: &e%price% %currency%&a, кол-во: &e%amount%&a."
+  updated: "&aМагазин обновлён! Цена: &e%price% %currency%&a, кол-во: &e%amount%&a."
+  need_look_chest: "&cСмотри на сундук."
+  need_price_amount: "&cИспользуй: &e/shop set <цена> <кол-во>"
+  need_item_in_chest: "&cВ сундуке нет товара для продажи!"
+  bought: "&aПокупка: &e%item% x%amount%&a за &e%price% %currency%&a."
+  not_enough_currency_close: "&cНедостаточно %currency% для покупки!"
+  out_of_stock: "&cВ магазине нет товара!"
+  chest_full_drop: "&eСундук продавца заполнен, валюта выброшена рядом."
+  break_denied: "&cТолько владелец может ломать табличку магазина!"
+  removed: "&aМагазин удалён."

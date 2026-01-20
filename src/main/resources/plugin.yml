@@ -1,0 +1,15 @@
+name: SimpleChestShopRU
+version: 1.3.0
+main: ru.alex.shop.SimpleChestShopPlugin
+api-version: '1.21'
+
+commands:
+  shop:
+    usage: /shop set <price> <amount>
+    description: Chest shop commands
+
+permissions:
+  simplechestshop.set:
+    default: true
+  simplechestshop.admin:
+    default: op
